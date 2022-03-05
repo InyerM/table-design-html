@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap');
+
+
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f0edf5;
+}
+
+.container{
+    padding: 150px 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.tableView{
+    width: 80rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    background-color: #299ae8;
+    height: 80px;
+    border-radius: 5px 5px 0 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.tbl{
+    background-color: #fcfbfd;
+    border-radius: 0 0 5px 5px;
+    font-weight: 400;
+    color: #646464;
+    padding: 15px 40px 40px 40px;
+}
+
+.header, .myTable{
+    width: 100%;
+}
+
+.myTable thead th{
+    padding: 20px;
+    text-align: left;
+}
+
+table, th, td{
+    border-bottom: 2px solid rgba(228, 228, 228, 0.644);
+    border-collapse: collapse;
+}
+
+.myTable tbody td{
+    padding: 20px;
+}
+
+.header .text{
+    color: rgb(241, 241, 241);
+    font-size: 35px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 40px;
+}
+
+.header .text p{
+    letter-spacing: -1px;
+}
+
+.header .text .bold{
+    padding: 0 10px;
+    font-weight: 500;
+}
+
+.btns{
+    padding-left: 560px;
+    display: flex;
+    flex-direction: row;
+}
+
+.btn{
+    margin-left: 15px;
+    border-radius: 5px;
+    padding: 10px 17px;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    align-items: center;
+    background-color: #f0edf5;
+    color: #646464;
+}
+
+.btn i{
+    padding-top: 2px;
+}
+
+.btn p{
+    margin-left: 8px;
+}
+
+.col-2, .col-4{
+    display: flex;
+    flex-direction: row;
+    align-items: center
+}
+
+.col-2 img{
+    width: 42px;
+    height: 42px;
+    border-radius: 100%;
+}
+
+.col-2 p{
+    margin-left: 15px;
+    font-weight: 600;
+}
+
+.col-4 p{
+    margin-left: 5px;
+}
+
+.active{
+    color: #43c743;
+}
+
+.inactive{
+    color: #dbc234;
+}
+
+.suspended{
+    color: #d42323;
+}
+
+.blue{
+    color: #299ae8;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.red{
+    color: #d31313;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.foot{
+    background-color: #fcfbfd;
+    height: 80px;
+    border-radius: 5px 5px 0 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.foot .text{
+    color: #646464;
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 40px;
+}
+
+.foot .text .bold{
+    padding: 0 3px;
+    font-weight: 600;
+}
